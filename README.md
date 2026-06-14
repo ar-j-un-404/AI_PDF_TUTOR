@@ -20,30 +20,35 @@ An AI-powered PDF question-answering application built with Python, Streamlit, O
 - NumPy
 - PyPDF
 
-## Project Structure
+## Demo PDF
 
-```
-AI_PDF_TUTOR
-│
-├── app.py
-├── ai_engine.py
-├── work_pdf.pdf
-├── README.md
-└── .gitignore
-```
+A sample file named `work_pdf.pdf` is included in this repository for demonstration purposes. You can replace it with your own PDF to ask questions about different documents.
 
 ## How to Run
 
 Install dependencies:
 
 ```bash
-pip install streamlit pypdf ollama sentence-transformers numpy
+pip install -r requirements.txt
 ```
 
 Start the application:
 
 ```bash
 streamlit run app.py
+```
+
+## Project Structure
+
+```
+AI_PDF_TUTOR
+│
+├── .gitignore
+├── README.md
+├── requirements.txt
+├── ai_engine.py
+├── app.py
+└── work_pdf.pdf
 ```
 
 ## Author
